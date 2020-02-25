@@ -34,21 +34,21 @@ namespace ToToRoBot
             {
                 Bot.DeleteMessageAsync(chatId, e.Message.MessageId);
                 Bot.SendTextMessageAsync(chatId, e.Message.From.FirstName + " " + e.Message.From.LastName + ", добро пожаловать в чат-группу онлайн фотокурсов студии RedLab. \n\nПодробная информация о курсе доступна в [закрепленном сообщении](https://t.me/c/1236126100/4097).\n\nТак же здесь можно общаться и задавать любые вопросы по фотокурсу и о фотографии в целом.", Telegram.Bot.Types.Enums.ParseMode.Markdown);
+                DeleteMessagebyTimer(chatId, e.Message);
             }
             else if (e.Message.Type == Telegram.Bot.Types.Enums.MessageType.ChatMemberLeft)
             {
                 Bot.DeleteMessageAsync(chatId, e.Message.MessageId);
             }
-            //Message message = new Message();
-            //foreach (var item in e.Message.Entities)
-            //{
-            //    Console.WriteLine(item.Type);
-            //    Console.WriteLine(item.Url);
-            //}
-            
-            //Console.WriteLine(e.Message.Text);
-            //Bot.DeleteMessageAsync(chatId,);
-            //Bot.SendTextMessageAsync(chatId, e.Message.Text);
+        }
+        private async static void DeleteMessagebyTimer(long chatId, Message e)
+        {
+            await Task.Run(() => AutomaticMessageAddUserDelete(chatId, e.MessageId + 1));
+        }
+        private async static void AutomaticMessageAddUserDelete(long chatId, int messageId)
+        {
+            System.Threading.Thread.Sleep(new TimeSpan(0, 0, 30));
+            await Bot.DeleteMessageAsync(chatId, messageId);
         }
     }
 }
