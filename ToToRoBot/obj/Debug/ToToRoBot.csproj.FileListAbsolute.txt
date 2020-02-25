@@ -1,0 +1,12 @@
+C:\Users\xunder\source\repos\ToToRoBot\ToToRoBot\bin\Debug\ToToRoBot.exe.config
+C:\Users\xunder\source\repos\ToToRoBot\ToToRoBot\bin\Debug\ToToRoBot.exe
+C:\Users\xunder\source\repos\ToToRoBot\ToToRoBot\bin\Debug\ToToRoBot.pdb
+C:\Users\xunder\source\repos\ToToRoBot\ToToRoBot\bin\Debug\Newtonsoft.Json.dll
+C:\Users\xunder\source\repos\ToToRoBot\ToToRoBot\bin\Debug\Telegram.Bot.dll
+C:\Users\xunder\source\repos\ToToRoBot\ToToRoBot\bin\Debug\Newtonsoft.Json.xml
+C:\Users\xunder\source\repos\ToToRoBot\ToToRoBot\bin\Debug\Telegram.Bot.xml
+C:\Users\xunder\source\repos\ToToRoBot\ToToRoBot\obj\Debug\ToToRoBot.csprojAssemblyReference.cache
+C:\Users\xunder\source\repos\ToToRoBot\ToToRoBot\obj\Debug\ToToRoBot.csproj.CoreCompileInputs.cache
+C:\Users\xunder\source\repos\ToToRoBot\ToToRoBot\obj\Debug\ToToRoBot.csproj.CopyComplete
+C:\Users\xunder\source\repos\ToToRoBot\ToToRoBot\obj\Debug\ToToRoBot.exe
+C:\Users\xunder\source\repos\ToToRoBot\ToToRoBot\obj\Debug\ToToRoBot.pdb
