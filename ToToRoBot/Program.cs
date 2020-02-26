@@ -15,7 +15,7 @@ namespace ToToRoBot
         static long chatId;
         static void Main(string[] args)
         {
-            Bot = new TelegramBotClient("1068227873:AAGPwNMJBW8lzPJz2m-5qvhkgAVoPZwnsDI");
+            Bot = new TelegramBotClient("1081776693:AAHsMO0sDUs9pF8NUc53wJQLESppbuKrXmM");
 
             Bot.OnMessage += Bot_OnMessageReceived;
 
@@ -32,7 +32,7 @@ namespace ToToRoBot
             chatId = e.Message.Chat.Id;
             if (e.Message.Type == Telegram.Bot.Types.Enums.MessageType.ChatMembersAdded)
             {
-                Bot.DeleteMessageAsync(chatId, e.Message.MessageId);
+                //Bot.DeleteMessageAsync(chatId, e.Message.MessageId);
                 Bot.SendTextMessageAsync(chatId, "Привет " + e.Message.From.FirstName + " " + e.Message.From.LastName + "! Заходи, не стесняйся ✌️ это общий чат онлайн фотокурсов студии RedLab.\n\nЗдесь можно свободно общаться и задавать любые вопросы по фотокурсу и о фотографии в целом.\n\nВся информация о курсе (отзывы, программа, цены, скидки) доступна в [закрепленном сообщении](https://t.me/c/1236126100/4097)", Telegram.Bot.Types.Enums.ParseMode.Markdown);
                 DeleteMessagebyTimer(chatId, e.Message);
             }
