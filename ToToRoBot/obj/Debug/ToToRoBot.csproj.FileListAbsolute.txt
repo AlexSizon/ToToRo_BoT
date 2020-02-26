@@ -21,3 +21,4 @@ C:\Users\xunder\source\repos\ToToRoBot\ToToRo_BoT\ToToRoBot\obj\Debug\ToToRoBot.
 C:\Users\xunder\source\repos\ToToRoBot\ToToRo_BoT\ToToRoBot\obj\Debug\ToToRoBot.csproj.CopyComplete
 C:\Users\xunder\source\repos\ToToRoBot\ToToRo_BoT\ToToRoBot\obj\Debug\ToToRoBot.exe
 C:\Users\xunder\source\repos\ToToRoBot\ToToRo_BoT\ToToRoBot\obj\Debug\ToToRoBot.pdb
+C:\Users\xunder\source\repos\ToToRoBot\ToToRo_BoT\ToToRoBot\obj\Debug\ToToRoBot.csprojAssemblyReference.cache
