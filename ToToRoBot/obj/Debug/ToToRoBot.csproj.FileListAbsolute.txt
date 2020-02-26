@@ -17,7 +17,6 @@ C:\Users\xunder\source\repos\ToToRoBot\ToToRo_BoT\ToToRoBot\bin\Debug\Newtonsoft
 C:\Users\xunder\source\repos\ToToRoBot\ToToRo_BoT\ToToRoBot\bin\Debug\Telegram.Bot.dll
 C:\Users\xunder\source\repos\ToToRoBot\ToToRo_BoT\ToToRoBot\bin\Debug\Newtonsoft.Json.xml
 C:\Users\xunder\source\repos\ToToRoBot\ToToRo_BoT\ToToRoBot\bin\Debug\Telegram.Bot.xml
-C:\Users\xunder\source\repos\ToToRoBot\ToToRo_BoT\ToToRoBot\obj\Debug\ToToRoBot.csprojAssemblyReference.cache
 C:\Users\xunder\source\repos\ToToRoBot\ToToRo_BoT\ToToRoBot\obj\Debug\ToToRoBot.csproj.CoreCompileInputs.cache
 C:\Users\xunder\source\repos\ToToRoBot\ToToRo_BoT\ToToRoBot\obj\Debug\ToToRoBot.csproj.CopyComplete
 C:\Users\xunder\source\repos\ToToRoBot\ToToRo_BoT\ToToRoBot\obj\Debug\ToToRoBot.exe
