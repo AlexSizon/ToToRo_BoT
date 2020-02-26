@@ -15,7 +15,7 @@ namespace ToToRoBot
         static long chatId;
         static void Main(string[] args)
         {
-            Bot = new TelegramBotClient("1081776693:AAHsMO0sDUs9pF8NUc53wJQLESppbuKrXmM");
+            Bot = new TelegramBotClient("1068227873:AAGPwNMJBW8lzPJz2m-5qvhkgAVoPZwnsDI");
 
             Bot.OnMessage += Bot_OnMessageReceived;
 
