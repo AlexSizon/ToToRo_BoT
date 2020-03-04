@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using Telegram.Bot;
@@ -22,7 +23,7 @@ namespace ToToRoBot
             var me = Bot.GetMeAsync().Result;
 
             Console.WriteLine(me.FirstName);
-
+            RestartBot(1);
             Bot.StartReceiving();
             Console.ReadLine();
         }
@@ -49,6 +50,17 @@ namespace ToToRoBot
         {
             System.Threading.Thread.Sleep(new TimeSpan(0, 10, 0));
             await Bot.DeleteMessageAsync(chatId, messageId);
+        }
+        private async static void RestartBot(int hours)
+        {
+            await Task.Run(() => RestartBotByTimer(hours));
+        }
+        private static void RestartBotByTimer(int hours)
+        {
+            System.Threading.Thread.Sleep(new TimeSpan(hours, 0, 0));
+            var fileName = Assembly.GetExecutingAssembly().Location;
+            System.Diagnostics.Process.Start(fileName);
+            Environment.Exit(-1);
         }
     }
 }
